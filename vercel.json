@@ -4,7 +4,6 @@
   "installCommand": "npm install",
   "outputDirectory": ".next",
   "framework": "nextjs",
-  "nodeVersion": "18.x",
   "env": {
     "NEXT_PUBLIC_API_URL": {
       "description": "Public API URL for the application"
