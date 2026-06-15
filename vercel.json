@@ -6,11 +6,5 @@
   "framework": "nextjs",
   "env": {
     "NEXT_PUBLIC_API_URL": ""
-  },
-  "functions": {
-    "api/**/*.ts": {
-      "memory": 1024,
-      "maxDuration": 30
-    }
   }
 }
