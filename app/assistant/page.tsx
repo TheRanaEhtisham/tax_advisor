@@ -156,13 +156,13 @@ export default function AssistantPage() {
             <p className="text-xs text-gray-500 font-medium mb-2">Try asking:</p>
             <div className="flex flex-wrap gap-2">
               {exampleQuestions.slice(0, 4).map((q) => (
-                // <button
-                //   key={q}
-                //   onClick={() => sendMessage(q)}
-                //   className="text-xs bg-white border border-gray-200 rounded-full px-3 py-1.5 text-gray-700 hover:border-blue-400 hover:text-blue-600 transition-colors"
-                // >
-                //   {q.length > 50 ? q.slice(0, 50) + "…" : q}
-                // </button>
+                <button
+                  key={q}
+                  onClick={() => sendMessage(q)}
+                  className="text-xs bg-white border border-gray-200 rounded-full px-3 py-1.5 text-gray-700 hover:border-blue-400 hover:text-blue-600 transition-colors"
+                >
+                  {q.length > 50 ? q.slice(0, 50) + "…" : q}
+                </button>
               ))}
             </div>
           </div>
