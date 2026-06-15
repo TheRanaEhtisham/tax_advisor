@@ -7,10 +7,6 @@
   "env": {
     "NEXT_PUBLIC_API_URL": ""
   },
-  "regions": [
-    "iad1",
-    "sfo1"
-  ],
   "functions": {
     "api/**/*.ts": {
       "memory": 1024,
