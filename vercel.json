@@ -5,9 +5,7 @@
   "outputDirectory": ".next",
   "framework": "nextjs",
   "env": {
-    "NEXT_PUBLIC_API_URL": {
-      "description": "Public API URL for the application"
-    }
+    "NEXT_PUBLIC_API_URL": ""
   },
   "regions": [
     "iad1",
